@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Let Me Ask AI For You...</title>
+    <meta name="description"
+        content="Your friends might know how to Google stuff, but do they know how to work with latest AI technologies?">
+</head>
+
+<body>
+    <header class="logo">
+        <h1>Let Me Ask AI For You...</h1>
+        <div class="description-section">
+            <h2 class="description">
+                Your friends might be experts at using traditional search engines like Google, Bing, and Co., but do
+                they
+                know the true capabilities of AI?
+                Enter your question and share the link. Show your friends the amazing things that AI can do.
+            </h2>
+        </div>
+    </header>
+    <main>
+
+        <section>
+            <form id="search-form">
+                <div class="bar">
+                    <input placeholder='Ask me anything, e.g. "Write a poem about Lord Voldemort"'
+                        id="search-form-input" class="searchbar" type="text" title="Search">
+                </div>
+                <div class="buttons">
+                    <input class="button" type="submit" value="Ask AI Chatbot" searchType="chat"></input>
+                    <input class="button" type="submit" value="AI Search" searchType="search"></input>
+                </div>
+            </form>
+        </section>
+
+        <section id="copy-url-container" class="copy-url-container">
+            <input id="copy-url-text" class="url" value="https://codepen.io/ayoisaiah/pen/YbNazJsmnbklasnkldanslkdn">
+            </input>
+            <button id="copy-url-btn" class="button copy-url-btn">Copy Link</button>
+        </section>
+    </main>
+
+
+</body>
+<script src="./index.js"></script>
+
+</html>

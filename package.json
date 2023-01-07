@@ -1,0 +1,8 @@
+{
+  "name": "letmeaskaiforyou",
+  "version": "1.0.0",
+  "description": "Your friends might be experts at using traditional search engines like Google, Bing, and Co., but do they know the true capabilities of AI? Enter your question and share the link. Show your friends the amazing things that AI can do.",
+  "main": "index.js",
+  "author": "Marius Bongarts",
+  "license": "MIT"
+}
