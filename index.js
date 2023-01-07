@@ -72,7 +72,7 @@ function createExternalLink(searchEngineUrl = SEARCH_ENGINE_YOU_ID) {
 }
 
 function createInternalUrl(q, searchType = "") {
-  const internalUrl = new URL(`http://localhost:3000`);
+  const internalUrl = new URL(location.origin);
   internalUrl.searchParams.append("q", encodeQueryParam(q));
   if (searchType == SEARCH_TYPE_CHATBOT) {
     internalUrl.searchParams.append(SEARCH_TYPE_KEY, SEARCH_TYPE_CHATBOT);
