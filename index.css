@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 28px;
   font-family: "Roboto", sans-serif;
   color: #333333;
   background: linear-gradient(to right, #111111, #1a1a1a);
@@ -25,7 +25,7 @@ h1 {
 
 .description {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: rgb(70, 70, 70);
   line-height: 1.5;
@@ -88,7 +88,7 @@ li a:hover {
 
 .logo {
   margin-bottom: 20px;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .bar {
@@ -116,7 +116,7 @@ li a:hover {
   padding: 0 30px;
   flex: 1 auto;
   outline: none;
-  font-size: 16px;
+  font-size: 14px;
   outline: none;
   border-radius: 30px;
 }
@@ -174,19 +174,32 @@ iframe {
 
 @media (min-width: 768px) {
   iframe {
-    width: 70%; /* For small screens, set the width to a higher percentage */
+    width: 70%;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .logo {
+    margin-top: 20vh;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .searchbar {
+    font-size: 16px;
   }
 }
 
 @media (min-width: 992px) {
   iframe {
-    width: 60%; /* For medium-sized screens, set the width to a slightly higher percentage */
+    width: 60%;
   }
 }
 
 @media (min-width: 1200px) {
   iframe {
-    width: 50%; /* For large screens, set the width to a slightly lower percentage */
+    width: 50%;
   }
 }
 
